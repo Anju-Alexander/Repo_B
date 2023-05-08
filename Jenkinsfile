@@ -12,7 +12,6 @@ pipeline {
             steps {
                 echo 'Build'
                 sh 'mvn clean install'
-                sh 'mvn package'
                 sh 'java -jar target/Trial-1.0-SNAPSHOT.jar'
             }
         }
