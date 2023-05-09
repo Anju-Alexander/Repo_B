@@ -10,7 +10,7 @@ pipeline {
                 sh 'mv SecondPipeline Trial'
             }
             
-        }
+        
             
         }
         stage('Build') {
