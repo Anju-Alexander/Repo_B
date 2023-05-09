@@ -11,12 +11,6 @@ pipeline {
             }
             
         }
-//         stage('Clone A') {
-//             steps {
-//                 echo 'Clone A'
-//                 sh 'cd SecondPipeline'
-//                 git branch: 'main', credentialsId: 'cf3d6d86-2ff7-465a-8767-58e572a16539', url: 'https://github.com/Anju-Alexander/Repo_A.git'
-//             }
             
         }
         stage('Build') {
