@@ -5,10 +5,12 @@ pipeline {
         stage('Clone B') {
             steps {
                 echo 'Clone B'
-                sh 'mkdir Trial'
-                sh 'cd Trial'
-                sh 'pwd'
-                git branch: 'main', credentialsId: 'cf3d6d86-2ff7-465a-8767-58e572a16539', url: 'https://github.com/Anju-Alexander/Trial.git'
+                
+                dir('scripts') {
+                    git branch: 'main', credentialsId: 'cf3d6d86-2ff7-465a-8767-58e572a16539', url: 'https://github.com/Anju-Alexander/Trial.git'
+                }
+                
+                
                 
                
                 
