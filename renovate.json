@@ -14,10 +14,10 @@
     "enabled": true,
     "labels": ["security"],
     "automerge": true,
-    "platformAutomerge": true,
-    "automergeType": "pr"
   },
   "osvVulnerabilityAlerts": true,
-  "ignoreTests": true
+  "ignoreTests": true,
+  "platformAutomerge": true,
+  "automergeType": "pr"
   
 }
