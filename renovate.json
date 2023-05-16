@@ -18,5 +18,5 @@
   "osvVulnerabilityAlerts": true,
   "ignoreTests": true,
   "platformAutomerge": true,
-  "automergeType": "pr"
+  "automergeType": "branch"
 }
