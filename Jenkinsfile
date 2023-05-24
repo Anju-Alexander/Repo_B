@@ -19,7 +19,7 @@ pipeline {
         {
             steps{
                 echo 'hello'
-                input message: 'Do you want to deploy xxxx to production?'
+                input message: 'The latest version is compatible. Do you want to merge?'
             }
         }
        
