@@ -19,6 +19,7 @@ pipeline {
         {
             steps{
                 echo 'hello'
+                input message: 'Do you want to deploy xxxx to production?'
             }
         }
        
