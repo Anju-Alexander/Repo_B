@@ -15,6 +15,14 @@ pipeline {
         
             
         }
+        
+        stage('Continue')
+        {
+            input{
+                message "shall we merge?"
+                ok "Yes"
+            }
+        }
        
         stage('Build') {
             steps {
