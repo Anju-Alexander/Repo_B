@@ -15,6 +15,12 @@ pipeline {
         
             
         }
+        stage('Continue')
+        {
+            steps{
+                echo 'hello'
+            }
+        }
        
         stage('Build') {
             steps {
